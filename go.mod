@@ -1,3 +1,3 @@
-module github.com/shurcooL/graphql
+module github.com/martellj/graphql
 
 go 1.19

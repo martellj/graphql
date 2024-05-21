@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/shurcooL/graphql/ident"
+	"github.com/martellj/graphql/ident"
 )
 
 func constructQuery(v any, variables map[string]any) string {
