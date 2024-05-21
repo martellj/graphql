@@ -12,9 +12,9 @@ import (
 
 func constructQuery(v any, variables map[string]any) string {
 	query := query(v)
-	if len(variables) > 0 {
-		return "query(" + queryArguments(variables) + ")" + query
-	}
+	// if len(variables) > 0 {
+	// 	return "query(" + queryArguments(variables) + ")" + query
+	// }
 	return query
 }
 
